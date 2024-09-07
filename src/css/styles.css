@@ -7,12 +7,21 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+
+@import url('./top-section.css');
+@import url('./about-us.css');
+@import url('./types-of-service.css');
+@import url('./our-services.css');
+@import url('./choose-us.css');
+@import url('./gallery.css');
+@import url('./contact-us.css');
+@import url('./our-clients.css');
+@import url('./prices.css');
+@import url('./our-workers.css');
+@import url('./subscribe.css');
+
 @import url('./footer.css');
