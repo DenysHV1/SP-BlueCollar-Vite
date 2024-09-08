@@ -77,7 +77,7 @@
 </symbol>
 
 <symbol id="icon-right-arrow" viewBox="0 0 19 32">
-<path fill="none" stroke="#1c2752" style="stroke: var(--color1, #1c2752)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.2667" d="M2.537 29.751l13.232-13.232-13.232-13.232"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.2667" d="M2.537 29.751l13.232-13.232-13.232-13.232"></path>
 </symbol>
 
 <symbol id="icon-twitter" viewBox="0 0 38 32">
