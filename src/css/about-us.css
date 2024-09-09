@@ -1,0 +1,142 @@
+.about-us-inner{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 50px;
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.about-us_img{
+	object-fit: cover;
+	object-position: center;
+	max-width: 100%;
+}
+
+.about-us_title{
+	max-width: 536px;
+	font-family: "Mulish", sans-serif;
+font-weight: 400;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: 0.01em;
+color: #1c2752;
+margin-top: 22px;
+}
+
+.about-us-right-text1{
+	max-width: 552px;
+	margin-top: 12px;
+}
+
+.about-us-right-text2{
+	max-width: 571px;
+	margin-top: 10px;
+}
+
+.about-us-block-ul-content{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 40px;
+	align-items: center;
+}
+
+.about-us-date-block{
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	width: 198px;
+	height: 220px;
+	background-color: #f4f4f4;
+}
+
+.about-us-date-js{
+	font-family: "Mulish", sans-serif;
+font-weight: 400;
+font-size: 80px;
+line-height: 110%;
+letter-spacing: 0em;
+text-align: center;
+color: #ffb342;
+justify-self: center;
+}
+
+.about-us-date_text{
+	font-family: "Mulish", sans-serif;
+font-size: 20px;
+line-height: 130%;
+text-align: center;
+color: #1c2752;
+max-width: 112px;
+margin-top: 16px;
+}
+
+.about-us-right-list{
+	display: grid;
+	gap: 10px;
+}
+
+.about-us-list_item{
+font-size: 17px;
+line-height: 159%;
+}
+
+.about-us-svg-p-content{
+	display: grid;
+	grid-template-columns: 25px 176px;
+	max-width: 249px;
+	gap: 10px;
+	background-color: #f4f4f4;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.about-us-p-content{
+	display: grid;
+	
+	max-width: 176px;
+}
+
+@media screen and (max-width:1122px){
+	.about-us-inner{
+		gap: 30px;
+	}
+
+	.about-us-p-content{
+		font-size: 14px;
+	}
+
+	.about-us_title{
+	font-size: 36px;
+	margin-top: 15px;
+	}
+	
+	.about-us-right-text1{
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	
+	.about-us-right-text2{
+		font-size: 14px;
+	}
+
+	.about-us-list_item{
+		font-size: 14px;
+		line-height: 120%;
+	}
+
+	.about-us-date-block{
+		width: 150px;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.about-us-inner{
+		justify-items: center;
+		grid-template-columns: 1fr;
+		gap: 30px;
+		padding-top: 100px;
+		padding-bottom: 140px;
+	}
+}

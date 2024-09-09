@@ -1,4 +1,10 @@
+//mobile-menu
 import { mobileMenu } from './js/mobile-menu';
-mobileMenu()
+mobileMenu();
 
+//about-us
+import { yerOfCompanyFn } from './js/about-us';
+yerOfCompanyFn();
 
+import { typeOfServices } from './js/types-of-service'
+typeOfServices();
