@@ -6,5 +6,8 @@ mobileMenu();
 import { yerOfCompanyFn } from './js/about-us';
 yerOfCompanyFn();
 
-import { typeOfServices } from './js/types-of-service'
+import { typeOfServices } from './js/types-of-service';
 typeOfServices();
+
+import { ourServices } from './js/our-services';
+ourServices()
