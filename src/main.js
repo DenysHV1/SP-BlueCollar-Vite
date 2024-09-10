@@ -2,15 +2,23 @@
 import { mobileMenu } from './js/mobile-menu';
 mobileMenu();
 
-//about-us
+//counterYears
 import { yerOfCompanyFn } from './js/counterYears';
-yerOfCompanyFn();
+const START_DATE = 1989;
+yerOfCompanyFn(START_DATE); //35 (2024)
 
+//types-of-service
 import { typeOfServices } from './js/types-of-service';
 typeOfServices();
 
+//our-services
 import { ourServices } from './js/our-services';
 ourServices();
 
+//ourStatistic
 import { ourStatistic } from './js/ourStatistic';
-ourStatistic(3956, 854, 265, 845);
+let projectDone = 3956;
+let peopleWorking = 854;
+let businessPartner = 265;
+let happyCustomers = 845;
+ourStatistic(projectDone, peopleWorking, businessPartner, happyCustomers);
