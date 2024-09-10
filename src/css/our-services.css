@@ -137,50 +137,16 @@
 }
 
 /* text-hidden */
-.our-services-hidden_text1 {
-	display: none;
-}
-.our-services-hidden_text2 {
-	display: none;
-}
-.our-services-hidden_text3 {
-	display: none;
-}
-.our-services-hidden_text4 {
-	display: none;
-}
-.our-services-hidden_text5 {
-	display: none;
-}
-.our-services-hidden_text6 {
+.our-services-hidden_text {
 	display: none;
 }
 
-.our-services-hidden_text1.is-active {
+.our-services-hidden_text.is-active {
 	display: grid;
 	color: #d2d2d2;
 }
+/* text-hidden */
 
-.our-services-hidden_text2.is-active {
-	display: grid;
-	color: #d2d2d2;
-}
-.our-services-hidden_text3.is-active {
-	display: grid;
-	color: #d2d2d2;
-}
-.our-services-hidden_text4.is-active {
-	display: grid;
-	color: #d2d2d2;
-}
-.our-services-hidden_text5.is-active {
-	display: grid;
-	color: #d2d2d2;
-}
-.our-services-hidden_text6.is-active {
-	display: grid;
-	color: #d2d2d2;
-}
 
 @media screen and (max-width: 1000px) {
 	.our-services-item {

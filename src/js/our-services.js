@@ -60,7 +60,7 @@ export function ourServices() {
 						<img src="${png}" alt="${h3}" class="our-services-item_png" width="48" height="48"/>
 						<h3 class="our-services-item_title">${h3}</h3>
 						<p class="our-services-item_text">${p}</p>
-						<p class="our-services-hidden_text${inx + 1}">${p2}</p>
+						<p class="our-services-hidden_text">${p2}</p>
 						<button class="our-services-item_btn" type="button">${btn}</button>
 					</li>`;
 			})
