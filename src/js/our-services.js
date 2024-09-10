@@ -1,42 +1,49 @@
+import path1 from '../img/png/conditions.png';
+import path2 from '../img/png/chip.png';
+import path3 from '../img/png/buildings-yellow.png';
+import path4 from '../img/png/lock.png';
+import path5 from '../img/png/keys.png';
+import path6 from '../img/png/normal-house.png';
+
 export function ourServices() {
 	const ourServicesArr = [
 		{
-			png: './img/png/conditions.png',
+			png: path1,
 			h3: 'Air condition service',
 			p: 'Services are able to service your entire electrical infrastructure from Thermal Imaging of your air condition from switch boards.',
 			btn: 'View More',
 			p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ratione.',
 		},
 		{
-			png: './img/png/chip.png',
+			png: path2,
 			h3: 'Electrical installation',
 			p: 'The art electrical installations that provide all the necessary electrical solutions to suit your business, home or industrial premises.',
 			btn: 'View More',
 			p2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, perspiciatis',
 		},
 		{
-			png: './img/png/buildings-yellow.png',
+			png: path3,
 			h3: 'General Builder',
 			p: 'We provide impeccable safety assessments to both commercial, residential properties. Our adept & knowledgeable electricians.',
 			btn: 'View More',
 			p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, sit.',
 		},
 		{
-			png: './img/png/lock.png',
+			png: path4,
 			h3: 'Security System',
 			p: 'Utilized for measuring flow, temperature level & pressure in the manufacturing industry array of technology is ensure productivity.',
 			btn: 'View More',
 			p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, vitae!',
 		},
 		{
-			png: './img/png/keys.png',
+			png: path5,
 			h3: 'Service & maintenance',
 			p: 'Electrical Services are able to service your entire electrical infrastructure from Thermal Imaging of your switch boards.',
 			btn: 'View More',
 			p2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, tenetur',
 		},
 		{
-			png: './img/png/normal-house.png',
+			png: path6,
 			h3: 'House Extensions',
 			p: 'Traditionally, electricity is supplied through overhead network poles, where the cable is connected to your building.',
 			btn: 'View More',
