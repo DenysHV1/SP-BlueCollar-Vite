@@ -8,7 +8,6 @@
 @import url('./reset.css');
 @import url('./base.css');
 
-
 /* Sections style */
 @import url('./header.css');
 
@@ -16,7 +15,7 @@
 @import url('./about-us.css');
 @import url('./types-of-service.css');
 @import url('./our-services.css');
-@import url('./choose-us.css');
+@import url('./ourStatistic.css');
 @import url('./gallery.css');
 @import url('./contact-us.css');
 @import url('./our-clients.css');

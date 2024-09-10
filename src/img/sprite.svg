@@ -60,7 +60,7 @@
 </symbol>
 
 <symbol id="icon-ok" viewBox="0 0 37 32">
-<path fill="none" stroke="#1c2752" style="stroke: var(--color1, #1c2752)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.9231" d="M34.462 2.462l-22.4 27.077-9.6-10.154"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.9231" d="M34.462 2.462l-22.4 27.077-9.6-10.154"></path>
 </symbol>
 
 <symbol id="icon-phone" viewBox="0 0 32 32">

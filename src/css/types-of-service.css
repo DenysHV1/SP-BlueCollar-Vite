@@ -25,21 +25,21 @@
 
 .card-close-text {
 	position: absolute;
-	bottom: -80px;
+	bottom: -75px;
 	left: 59px;
 	background-color: #ffb342;
 	padding: 3px;
 }
 .card-close-text2 {
 	position: absolute;
-	bottom: -80px;
+	bottom: -75px;
 	left: 59px;
 	background-color: #ffb342;
 	padding: 3px;
 }
 .card-close-text3 {
 	position: absolute;
-	bottom: -80px;
+	bottom: -75px;
 	left: 59px;
 	background-color: #ffb342;
 	padding: 3px;
@@ -277,6 +277,19 @@
 		margin-top: 25px;
 		padding: 15px 35px;
 	}
+
+	.card-close-text {
+		bottom: -83px;
+		left: 40px;
+	}
+	.card-close-text2 {
+		bottom: -83px;
+		left: 40px;
+	}
+	.card-close-text3 {
+		bottom: -83px;
+		left: 40px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -319,15 +332,15 @@
 	}
 
 	.card-close-text {
-		bottom: 252px;
+		bottom: 192px;
 		left: 30px;
 	}
 	.card-close-text2 {
-		bottom: 252px;
+		bottom: 192px;
 		left: 30px;
 	}
 	.card-close-text3 {
-		bottom: 252px;
+		bottom: 192px;
 		left: 30px;
 	}
 }

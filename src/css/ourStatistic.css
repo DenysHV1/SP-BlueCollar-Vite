@@ -1,0 +1,244 @@
+.choose-us-inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 70px;
+}
+
+.choose-us-inner-right {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+
+/* ------------right items---------------- */
+.choose-us-right_svg {
+	fill: none;
+	stroke: #1c2752;
+}
+
+.svg-ok-container {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #ffb342;
+}
+
+.choose-us-right-div_text {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+	color: #1c2752;
+}
+
+.choose-us-right-div {
+	display: grid;
+	grid-template-columns: 32px 207px;
+	gap: 20px;
+}
+
+.choose-us-right-div {
+	margin-top: 25px;
+}
+
+.choose-us-right-div-top {
+	margin-top: 40px;
+}
+/* -----------grey block---------------- */
+.choose-us-right-special-div {
+	display: grid;
+	grid-template-columns: 22px 141px;
+	gap: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f4f4f4;
+	max-width: 213px;
+	height: 27px;
+}
+
+.choose-us_svg {
+	stroke: #ffb342;
+	fill: none;
+}
+
+.choose-us_text {
+	text-transform: capitalize;
+	color: #1c2752;
+}
+/* ------------------------------------ */
+
+/* ------------left items---------------- */
+.choose-us-left-list {
+	background: rgba(28, 39, 82, 0.86);
+	padding: 100px 80px;
+	display: grid;
+	gap: 25px;
+	max-width: 560px;
+}
+
+.choose-us-left-item {
+	display: grid;
+	grid-template-columns: 110px auto;
+}
+
+.choose-us-left_number {
+	width: 110px;
+	height: 67px;
+	border: 1px solid #ffb342;
+	background-color: #ffb342;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 21px;
+	align-items: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 24px;
+	line-height: 146%;
+	color: #1c2752;
+}
+
+.choose-us-left_text {
+	width: 24.167vw;
+	max-width: 290px;
+	height: 67px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	line-height: 140%;
+	letter-spacing: 0.01em;
+	color: #fff;
+	display: grid;
+	align-items: center;
+	justify-items: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.choose-us-left-div-top {
+	margin-top: 40px;
+}
+/* ------------------------------------ */
+
+/* -----------left bg---------------- */
+.choose-us-inner-left {
+	background-image: url(../img/chooise-us-1x.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	padding: 140px 0;
+}
+
+@media (min-resolution: 192dpi) {
+	.choose-us-inner-left {
+		background-image: url(../img/chooise-us-1x.jpg);
+	}
+}
+
+/* ------------------------------------ */
+
+.choose-us_title {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 130%;
+	letter-spacing: 0.01em;
+	color: #1c2752;
+	max-width: 506px;
+	margin-top: 23px;
+}
+
+.choose-us-right-main_text {
+	font-size: 17px;
+	line-height: 159%;
+	max-width: 577px;
+	margin-top: 11px;
+}
+
+.choose-us-right-bottom_text {
+	font-size: 17px;
+	line-height: 159%;
+	max-width: 444px;
+	margin-top: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+	/* right-side */
+	.choose-us-inner {
+		gap: 40px;
+		padding-right: 15px;
+	}
+
+	.choose-us-right-div_text {
+		font-size: 14px;
+	}
+
+	.svg-ok-container {
+		width: 24px;
+		height: 24px;
+	}
+
+	.choose-us_text {
+		font-size: 14px;
+	}
+
+	.choose-us_title {
+		font-size: 36px;
+	}
+
+	.choose-us-right-main_text {
+		font-size: 14px;
+		line-height: 150%;
+	}
+
+	.choose-us-right-bottom_text {
+		font-size: 14px;
+		line-height: 150%;
+	}
+	/* right-side */
+
+	/* left-side */
+	.choose-us-left-list {
+		padding: 50px 30px;
+		gap: 20px;
+	}
+	.choose-us-left_number {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.choose-us-left_text {
+		font-size: 14px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.choose-us-inner {
+		gap: 20px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.choose-us-left_number {
+		width: 70px;
+		padding-left: 11px;
+	}
+
+	.choose-us-left-item {
+		display: grid;
+		grid-template-columns: 70px auto;
+	}
+}
