@@ -29,7 +29,8 @@ ourStatistic(projectDone, peopleWorking, businessPartner, happyCustomers);
 //todo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 //todo GALLERY
-// if gallery El <= 4 --- this a section is without BTN
+
+//*data START
 import gallery1Picture1x from './img/gallery/gallery1-1x.jpg';
 import gallery1Picture2x from './img/gallery/gallery1-3x.jpg';
 import gallery2Picture1x from './img/gallery/gallery2-1x.jpg';
@@ -41,8 +42,6 @@ import gallery4Picture2x from './img/gallery/gallery4-3x.jpg';
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
-import { setGalleryMarkup } from './js/gallery'
 
 const galleryArr = [
 	{
@@ -94,6 +93,51 @@ const galleryArr = [
 		projectView: 'Commercial',
 	},
 ];
+//*data END
 
-setGalleryMarkup(galleryArr, SimpleLightbox)
+//*gallery
+import { setGalleryMarkup } from './js/gallery';
+setGalleryMarkup(galleryArr, SimpleLightbox);
+
+//todo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//todo contact-us-comments.js
+
+//*data START
+import clientPhoto from './img/clients/client1.jpg';
+
+const commentBlockEl = document.querySelector('.special-comment-wrapper-js');
+const commentArr = [
+	{
+		clientImg: clientPhoto,
+		clientName: 'Nancy luther',
+		clientCity: 'NewYork',
+		clientComment:
+			'We have had several good experiences with Blue Collar team. Most recently, they replaced our 20-year-old HVAC system with a new, modern, and more efficient system & it worked fine.',
+	},
+	{
+		clientImg: clientPhoto,
+		clientName: 'Nancy luther',
+		clientCity: 'NewYork',
+		clientComment:
+			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus voluptas sapiente praesentium sint ab officia magni. Ducimus dolores est praesentium modi ipsa! Necessitatibus quos perferendis amet saepe facere explicabo?',
+	},
+	{
+		clientImg: clientPhoto,
+		clientName: 'Nancy luther',
+		clientCity: 'NewYork',
+		clientComment:
+			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus voluptas sapiente praesentium sint ab officia magni. Ducimus dolores est praesentium',
+	},
+];
+//*data END
+
+//*set markup
+import { setCommentsToHtml } from './js/contact-us-comments';
+setCommentsToHtml(commentArr, commentBlockEl);
+
+//*slider
+import { commentsSlider } from './js/contact-us-comments';
+commentsSlider(commentBlockEl);
+
 //todo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
