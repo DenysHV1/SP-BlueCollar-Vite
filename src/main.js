@@ -75,6 +75,24 @@ const galleryArr = [
 		projectName: 'Roof Cleaning',
 		projectView: 'Commercial',
 	},
+	{
+		img1x: gallery4Picture1x,
+		img2x: gallery4Picture2x,
+		projectName: 'Roof Cleaning',
+		projectView: 'Commercial',
+	},
+	{
+		img1x: gallery4Picture1x,
+		img2x: gallery4Picture2x,
+		projectName: 'Roof Cleaning',
+		projectView: 'Commercial',
+	},
+	{
+		img1x: gallery4Picture1x,
+		img2x: gallery4Picture2x,
+		projectName: 'Roof Cleaning',
+		projectView: 'Commercial',
+	},
 ];
 
 setGalleryMarkup(galleryArr, SimpleLightbox)
