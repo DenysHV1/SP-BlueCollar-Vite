@@ -2,6 +2,14 @@
 	padding-top: 140px;
 	padding-bottom: 60px;
 }
+
+.contact-us-inner {
+	display: grid;
+	align-items: baseline;
+	justify-content: center;
+	gap: 45px;
+	grid-template-columns: repeat(2, 1fr);
+}
 /* ~~~~~~~~~mini-block~~~~~~~~~~~~~ */
 .contact-us-svg-p-content {
 	display: grid;
@@ -41,6 +49,7 @@
 	border: 1px solid #ddd;
 	padding: 41px 41px 111px 41px;
 	overflow: hidden;
+	margin-top: 42px;
 }
 
 .special-comment-wrapper-js {
@@ -53,7 +62,6 @@
 	min-width: 510px;
 	width: 510px;
 }
-
 
 .client_svg {
 	fill: #1c2752;
@@ -100,7 +108,6 @@
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 21px;
 }
-/* ~~~~~~~~~~~~ */
 
 .comment-text {
 	max-width: 509px;
@@ -214,6 +221,65 @@
 	margin-top: 21px;
 }
 
+/* ~~~~~~~~~~~FORM~~~~~~~~~~~~ */
+
+.main-form-js {
+	margin-top: 40px;
+	background: #f4f4f4;
+	display: grid;
+	justify-content: stretch;
+	align-items: center;
+	padding: 70px 40px 65px 40px;
+	max-width: 564px;
+	gap: 25px;
+}
+
+.main-form-user-info {
+	border: 1px solid #ccc;
+	height: 65px;
+	padding-left: 44px;
+	padding-right: 44px;
+	color: #1c2752;
+	width: 100%;
+}
+
+.main-form-user-info::placeholder {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 159%;
+	letter-spacing: 0.02em;
+	color: #1c2752;
+}
+
+.main-form-user-message {
+	min-height: 150px;
+	resize: none;
+	padding: 19px 37px;
+	width: 100%;
+}
+
+.main-form-user-message::placeholder {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 159%;
+	letter-spacing: 0.02em;
+	color: #1c2752;
+}
+
+.form-btn {
+	border: 2px solid #ffb342;
+	height: 68px;
+	background-color: #ffb342;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 159%;
+	letter-spacing: 0.02em;
+	color: #1c2752;
+}
+
 @media screen and (max-width: 1000px) {
 	/* contact-info-container */
 	.contact-info_title {
@@ -244,30 +310,32 @@
 		font-size: 36px;
 	}
 
+	.contact-us-inner {
+		justify-items: center;
+		gap: 20px;
+		grid-template-columns: 1fr;
+	}
+
+	.main-form-js {
+		min-width: 564px;
+		gap: 25px;
+	}
 }
 
+@media screen and (max-width: 615px) {
+	.main-form-js {
+		min-width: 0;
+		gap: 25px;
+	}
 
+	.contact-us-inner {
+		display: block;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.contact-us-right {
+		margin-top: 20px;
+	}
+}
 
 /* special media fof slider */
 @media screen and (max-width: 590px) {
@@ -279,10 +347,10 @@
 	.client-name {
 		font-size: 18px;
 	}
-	.client-city{
+	.client-city {
 		font-size: 14px;
 	}
-	.client-container-svg{
+	.client-container-svg {
 		display: none;
 	}
 }

@@ -1,4 +1,4 @@
-<section class="contact-us">
+<section class="contact-us" id="contact-us">
 	<div class="container">
 		<div class="contact-us-inner">
 			<div class="contact-us-left">
@@ -47,7 +47,23 @@
 					</a>
 				</div>
 			</div>
-			<div class="contact-us-right"></div>
+			<div class="contact-us-right">
+				<div class="contact-us-svg-p-content">
+					<svg class="contact-us_svg" width="22" height="27">
+						<use href="/img/sprite.svg#icon-notes"></use>
+					</svg>
+					<p class="contact-us-p-content">Meet Us</p>
+				</div>
+				<h2 class="contact-us-left_title">Appointment Form</h2>
+				<form action="submit" class="main-form-js">
+					<input class="main-form-user-info" type="text" name="userName" placeholder="Your name" required>
+					<input class="main-form-user-info" type="email" name="userEmail" placeholder="Your email" required>
+					<input class="main-form-user-info" type="number" name="userPhoneNumber" placeholder="Phone Number" required>
+					<input class="main-form-user-info" type="date" name="userDate" placeholder="Date" required>
+					<textarea class="main-form-user-message" name="userMessage" placeholder="Service Description"></textarea>
+					<button class="form-btn">Submit</button>
+				</form>
+			</div>
 		</div>
 	</div>
 </section>
