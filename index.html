@@ -16,7 +16,7 @@
 		<script type="module" crossorigin src="/SP-BlueCollar-Vite/index.js"></script>
 		<link rel="modulepreload" crossorigin href="/SP-BlueCollar-Vite/assets/vendor-CgTBfC_f.js">
 		<link rel="stylesheet" crossorigin href="/SP-BlueCollar-Vite/assets/vendor-DkczhqSJ.css">
-		<link rel="stylesheet" crossorigin href="/SP-BlueCollar-Vite/assets/index-DuLv71bC.css">
+		<link rel="stylesheet" crossorigin href="/SP-BlueCollar-Vite/assets/index-DXqNRVdV.css">
 	</head>
 	<body>
 		<header class="header">
@@ -102,19 +102,19 @@
 			<nav class="header-nav">
 				<ul class="header-nav-list">
 					<li class="header-nav-item">
-						<a href="#" class="header-nav_link">Home</a>
+						<a href="#hero" class="header-nav_link">Home</a>
 					</li>
 					<li class="header-nav-item">
-						<a href="#" class="header-nav_link">About Us</a>
+						<a href="#about-us-section" class="header-nav_link">About Us</a>
 					</li>
 					<li class="header-nav-item">
-						<a href="#" class="header-nav_link">Pages</a>
+						<a href="#types-of-service" class="header-nav_link">Pages</a>
 					</li>
 					<li class="header-nav-item">
-						<a href="#" class="header-nav_link">Blog</a>
+						<a href="#blog" class="header-nav_link">Blog</a>
 					</li>
 					<li class="header-nav-item">
-						<a href="#" class="header-nav_link">Contact Us</a>
+						<a href="#contact-us" class="header-nav_link">Contact Us</a>
 					</li>
 				</ul>
 			</nav>
@@ -131,19 +131,19 @@
 			<nav class="header-nav-media">
 				<ul class="header-nav-list-media">
 					<li class="header-nav-item-media">
-						<a href="#" class="header-nav_link-media">Home</a>
+						<a href="#hero" class="header-nav_link-media">Home</a>
 					</li>
 					<li class="header-nav-item-media">
-						<a href="#" class="header-nav_link-media">About Us</a>
+						<a href="#about-us-section" class="header-nav_link-media">About Us</a>
 					</li>
 					<li class="header-nav-item-media">
-						<a href="#" class="header-nav_link-media">Pages</a>
+						<a href="#types-of-service" class="header-nav_link-media">Pages</a>
 					</li>
 					<li class="header-nav-item-media">
-						<a href="#" class="header-nav_link-media">Blog</a>
+						<a href="#blog" class="header-nav_link-media">Blog</a>
 					</li>
 					<li class="header-nav-item-media">
-						<a href="#" class="header-nav_link-media">Contact Us</a>
+						<a href="#contact-us" class="header-nav_link-media">Contact Us</a>
 					</li>
 				</ul>
 			</nav>
@@ -172,7 +172,7 @@
 
 
 		<main>
-			<section class="top-section">
+			<section class="top-section" id="hero">
 	<div class="container">
 		<div class="top-section-content">
 			<div class="top-section-svg-text">
@@ -189,7 +189,7 @@
 	</div>
 </section>
 
-			<section class="about-us">
+			<section class="about-us" id="about-us-section">
 	<div class="container">
 		<div class="about-us-inner">
 			<img
@@ -228,7 +228,7 @@
 		</div>
 	</div>
 </section>
-			<section class="types-of-service">
+			<section class="types-of-service" id="types-of-service">
 	<div class="container">
 		<div class="service-inner">
 			<div class="service-svg-p-content">
@@ -466,7 +466,7 @@
 	</div>
 </section>
 
-			<section class="gallery">
+			<section class="gallery" id="blog">
 	<div class="gallery-inner">
 		<div class="gallery-svg-p-content">
 			<svg class="gallery_svg" width="23" height="27">
@@ -481,7 +481,7 @@
 	</div>
 </section>
 
-			<section class="contact-us">
+			<section class="contact-us" id="contact-us">
 	<div class="container">
 		<div class="contact-us-inner">
 			<div class="contact-us-left">
@@ -530,7 +530,23 @@
 					</a>
 				</div>
 			</div>
-			<div class="contact-us-right"></div>
+			<div class="contact-us-right">
+				<div class="contact-us-svg-p-content">
+					<svg class="contact-us_svg" width="22" height="27">
+						<use href="/SP-BlueCollar-Vite/assets/sprite-C_XyvuFs.svg#icon-notes"></use>
+					</svg>
+					<p class="contact-us-p-content">Meet Us</p>
+				</div>
+				<h2 class="contact-us-left_title">Appointment Form</h2>
+				<form action="submit" class="main-form-js">
+					<input class="main-form-user-info" type="text" name="userName" placeholder="Your name" required>
+					<input class="main-form-user-info" type="email" name="userEmail" placeholder="Your email" required>
+					<input class="main-form-user-info" type="number" name="userPhoneNumber" placeholder="Phone Number" required>
+					<input class="main-form-user-info" type="date" name="userDate" placeholder="Date" required>
+					<textarea class="main-form-user-message" name="userMessage" placeholder="Service Description"></textarea>
+					<button class="form-btn">Submit</button>
+				</form>
+			</div>
 		</div>
 	</div>
 </section>
